@@ -30,7 +30,7 @@ while True:
             n1 = float(input("Enter first number: "))
             n2 = float(input("Enter second number: "))
         except ValueError:
-            print("Invaild, enter an actual number to continue. If you think this is an actual operation, report it to the github bug tracker.")
+            print("Error.")
             continue
 
 
